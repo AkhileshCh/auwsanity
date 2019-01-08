@@ -5,9 +5,10 @@
  */
 package utility;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
-
+import org.openqa.selenium.WebElement;
 /**
  *
  * @author akhilesh
@@ -24,7 +25,9 @@ public class scrollfunctions {
               Thread.sleep(5000);
               count++;
           }
-        js.executeScript("window.scrollBy(0,-200)", "");
+//        js.executeScript("window.scrollBy(0,-200)", "");
+         WebElement element = driver.findElement(By.tagName("header"));
+         js.executeScript("arguments[0].scrollIntoView();", element); 
         
         //js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
         return driver;

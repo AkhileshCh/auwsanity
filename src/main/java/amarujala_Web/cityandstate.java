@@ -8,7 +8,9 @@ package amarujala_Web;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.WebDriver;
-
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 /**
  *
  * @author akhilesh
@@ -18,239 +20,322 @@ public class cityandstate {
     private static WebElement element = null;
     
         public static WebElement city_UP(WebDriver driver){
-        element = driver.findElement(By.linkText("उत्तर प्रदेश"));
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        element = wait.until(ExpectedConditions.presenceOfElementLocated(By.linkText("उत्तर प्रदेश")));
+               
         return element;
     }
         public static WebElement city_UP_1(WebDriver driver){
-        element = driver.findElement(By.linkText("लखनऊ"));
+        
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        element = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//a[contains(text(),'लखनऊ')]")));
         return element;
     }
         public static WebElement city_UP_2(WebDriver driver){
-        element = driver.findElement(By.linkText("मेरठ"));
+        
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        element = wait.until(ExpectedConditions.presenceOfElementLocated(By.linkText("मेरठ")));
         return element;
     }
         public static WebElement city_UP_3(WebDriver driver){
-        element = driver.findElement(By.linkText("कानपुर"));
+        
+         WebDriverWait wait = new WebDriverWait(driver, 10);
+        element = wait.until(ExpectedConditions.presenceOfElementLocated(By.linkText("कानपुर")));
         return element;
     }
         public static WebElement city_UP_4(WebDriver driver){
-        element = driver.findElement(By.linkText("आगरा"));
+        
+         WebDriverWait wait = new WebDriverWait(driver, 10);
+        element = wait.until(ExpectedConditions.presenceOfElementLocated(By.linkText("आगरा")));
         return element;
     }
         public static WebElement city_UP_5(WebDriver driver){
-        element = driver.findElement(By.linkText("वाराणसी"));
+        
+         WebDriverWait wait = new WebDriverWait(driver, 10);
+        element = wait.until(ExpectedConditions.presenceOfElementLocated(By.linkText("वाराणसी")));
         return element;
     }
         public static WebElement city_UP_6(WebDriver driver){
-        element = driver.findElement(By.linkText("अलीगढ़"));
+        WebDriverWait wait = new WebDriverWait(driver, 20);
+        element = wait.until(ExpectedConditions.presenceOfElementLocated(By.linkText("अलीगढ़")));
         return element;
     }
         public static WebElement city_UP_7(WebDriver driver){
         element = driver.findElement(By.linkText("गोरखपुर"));
+         WebDriverWait wait = new WebDriverWait(driver, 10);
+        element = wait.until(ExpectedConditions.presenceOfElementLocated(By.linkText("गोरखपुर")));
         return element;
     }
         public static WebElement city_UP_8(WebDriver driver){
         element = driver.findElement(By.linkText("झांसी"));
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        element = wait.until(ExpectedConditions.presenceOfElementLocated(By.linkText("झांसी")));
         return element;
     }
         public static WebElement city_UP_9(WebDriver driver){
-        element = driver.findElement(By.linkText("बरेली"));
+        driver.findElement(By.linkText("More •••")).click();
+        
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        element = wait.until(ExpectedConditions.presenceOfElementLocated(By.linkText("बरेली")));
         return element;
     }
         public static WebElement city_UP_10(WebDriver driver){
-        element = driver.findElement(By.linkText("मुरादाबाद"));
+        driver.findElement(By.linkText("More •••")).click();
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        element = wait.until(ExpectedConditions.presenceOfElementLocated(By.linkText("मुरादाबाद")));
+        
         return element;
     }
         public static WebElement city_UP_11(WebDriver driver){
-        element = driver.findElement(By.linkText("प्रयागराज"));
+        driver.findElement(By.linkText("More •••")).click();
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        element = wait.until(ExpectedConditions.presenceOfElementLocated(By.linkText("प्रयागराज")));
         return element;
     }
         
-        public static WebElement city_delhi(WebDriver driver){
-        element = driver.findElement(By.linkText("दिल्ली"));
+        public static WebElement city_delhi(WebDriver driver){   
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        element = wait.until(ExpectedConditions.presenceOfElementLocated(By.linkText("दिल्ली")));
         return element;
     }
-        public static WebElement city_delhi_1(WebDriver driver){
-        element = driver.findElement(By.linkText("दिल्ली-एनसीआर"));
+        public static WebElement city_delhi_1(WebDriver driver){   
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        element = wait.until(ExpectedConditions.presenceOfElementLocated(By.linkText("दिल्ली-एनसीआर")));
         return element;
     }
         public static WebElement city_delhi_2(WebDriver driver){
-        element = driver.findElement(By.linkText("गाजियाबाद"));
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        element = wait.until(ExpectedConditions.presenceOfElementLocated(By.linkText("गाजियाबाद")));
         return element;
     }
         public static WebElement city_delhi_3(WebDriver driver){
-        element = driver.findElement(By.linkText("गुरुग्राम"));
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        element = wait.until(ExpectedConditions.presenceOfElementLocated(By.linkText("गुरुग्राम")));
         return element;
     }
         public static WebElement city_delhi_4(WebDriver driver){
-        element = driver.findElement(By.linkText("नोएडा"));
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        element = wait.until(ExpectedConditions.presenceOfElementLocated(By.linkText("नोएडा")));
         return element;
     }
-        public static WebElement city_delhi_5(WebDriver driver){
-        element = driver.findElement(By.linkText("फरीदाबाद"));
+        public static WebElement city_delhi_5(WebDriver driver){    
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        element = wait.until(ExpectedConditions.presenceOfElementLocated(By.linkText("फरीदाबाद")));   
         return element;
     }
         
-        public static WebElement city_uttrakhand(WebDriver driver){
-        element = driver.findElement(By.linkText("उत्तराखंड"));
+        public static WebElement city_uttrakhand(WebDriver driver){    
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        element = wait.until(ExpectedConditions.presenceOfElementLocated(By.linkText("उत्तराखंड"))); 
+        
         return element;
     }        
         public static WebElement city_uttrakhand_1(WebDriver driver){
-        element = driver.findElement(By.linkText("ऋषिकेश"));
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        element = wait.until(ExpectedConditions.presenceOfElementLocated(By.linkText("ऋषिकेश")));
         return element;
     }    
         public static WebElement city_uttrakhand_2(WebDriver driver){
-        element = driver.findElement(By.linkText("अल्मोड़ा"));
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        element = wait.until(ExpectedConditions.presenceOfElementLocated(By.linkText("अल्मोड़ा")));
         return element;
     }
         public static WebElement city_uttrakhand_3(WebDriver driver){
-        element = driver.findElement(By.linkText("उत्तर काशी"));
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        element = wait.until(ExpectedConditions.presenceOfElementLocated(By.linkText("उत्तर काशी")));
         return element;
     }
         public static WebElement city_uttrakhand_4(WebDriver driver){
-        element = driver.findElement(By.linkText("ऊधम सिंह नगर"));
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        element = wait.until(ExpectedConditions.presenceOfElementLocated(By.linkText("ऊधम सिंह नगर")));
         return element;
     }
         public static WebElement city_uttrakhand_5(WebDriver driver){
-        element = driver.findElement(By.linkText("कोटद्वार"));
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        element = wait.until(ExpectedConditions.presenceOfElementLocated(By.linkText("कोटद्वार")));
         return element;
     }
         public static WebElement city_uttrakhand_6(WebDriver driver){
-        element = driver.findElement(By.linkText("चमोली"));
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        element = wait.until(ExpectedConditions.presenceOfElementLocated(By.linkText("चमोली")));
         return element;
     }
         public static WebElement city_uttrakhand_7(WebDriver driver){
-        element = driver.findElement(By.linkText("चम्पावत"));
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        element = wait.until(ExpectedConditions.presenceOfElementLocated(By.linkText("चम्पावत")));
         return element;
     }
         public static WebElement city_uttrakhand_8(WebDriver driver){
-        element = driver.findElement(By.linkText("टिहरी"));
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        element = wait.until(ExpectedConditions.presenceOfElementLocated(By.linkText("टिहरी")));
         return element;
     }
         public static WebElement city_uttrakhand_9(WebDriver driver){
-        element = driver.findElement(By.linkText("देहरादून"));
+        driver.findElement(By.linkText("More •••")).click();
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        element = wait.until(ExpectedConditions.presenceOfElementLocated(By.linkText("देहरादून")));
         return element;
     }
         public static WebElement city_uttrakhand_10(WebDriver driver){
-        element = driver.findElement(By.linkText("नैनीताल"));
+        driver.findElement(By.linkText("More •••")).click();
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        element = wait.until(ExpectedConditions.presenceOfElementLocated(By.linkText("नैनीताल")));
         return element;
     }
         public static WebElement city_uttrakhand_11(WebDriver driver){
-        element = driver.findElement(By.linkText("पिथौरागढ़"));
+        driver.findElement(By.linkText("More •••")).click();
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        element = wait.until(ExpectedConditions.presenceOfElementLocated(By.linkText("पिथौरागढ़")));
         return element;
     }
         public static WebElement city_uttrakhand_12(WebDriver driver){
-        element = driver.findElement(By.linkText("पौड़ी"));
+        driver.findElement(By.linkText("More •••")).click();
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        element = wait.until(ExpectedConditions.presenceOfElementLocated(By.linkText("पौड़ी")));
         return element;
     }
         public static WebElement city_uttrakhand_13(WebDriver driver){
-        element = driver.findElement(By.linkText("बागेश्वर"));
+        driver.findElement(By.linkText("More •••")).click();
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        element = wait.until(ExpectedConditions.presenceOfElementLocated(By.linkText("बागेश्वर")));
         return element;
     }
         public static WebElement city_uttrakhand_14(WebDriver driver){
-        element = driver.findElement(By.linkText("रुड़की"));
+        driver.findElement(By.linkText("More •••")).click();
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        element = wait.until(ExpectedConditions.presenceOfElementLocated(By.linkText("रुड़की")));
         return element;
     }
         public static WebElement city_uttrakhand_15(WebDriver driver){
-        element = driver.findElement(By.linkText("रुद्र प्रयाग"));
+        driver.findElement(By.linkText("More •••")).click();
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        element = wait.until(ExpectedConditions.presenceOfElementLocated(By.linkText("रुद्र प्रयाग")));
         return element;
     }
         public static WebElement city_uttrakhand_16(WebDriver driver){
-        element = driver.findElement(By.linkText("हरिद्वार"));
+        driver.findElement(By.linkText("More •••")).click();
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        element = wait.until(ExpectedConditions.presenceOfElementLocated(By.linkText("हरिद्वार")));
         return element;
     }
         
         public static WebElement city_hp(WebDriver driver){
-        element = driver.findElement(By.linkText("हिमाचल प्रदेश"));
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        element = wait.until(ExpectedConditions.presenceOfElementLocated(By.linkText("हिमाचल प्रदेश")));  
         return element;
     }
         public static WebElement city_hp_1(WebDriver driver){
-        element = driver.findElement(By.linkText("ऊना"));
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        element = wait.until(ExpectedConditions.presenceOfElementLocated(By.linkText("ऊना")));
         return element;
     }
         public static WebElement city_hp_2(WebDriver driver){
-        element = driver.findElement(By.linkText("कांगड़ा"));
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        element = wait.until(ExpectedConditions.presenceOfElementLocated(By.linkText("कांगड़ा")));    
         return element;
     }
         public static WebElement city_hp_3(WebDriver driver){
-        element = driver.findElement(By.linkText("कुल्लू"));
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        element = wait.until(ExpectedConditions.presenceOfElementLocated(By.linkText("कुल्लू"))); 
         return element;
     }
         public static WebElement city_hp_4(WebDriver driver){
-        element = driver.findElement(By.linkText("चम्बा"));
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        element = wait.until(ExpectedConditions.presenceOfElementLocated(By.linkText("चम्बा")));
         return element;
     }
+/*   
         public static WebElement city_hp_5(WebDriver driver){
         element = driver.findElement(By.linkText("धर्मशाला"));
         return element;
-    }
+   }
+*/
         public static WebElement city_hp_6(WebDriver driver){
-        element = driver.findElement(By.linkText("बिलासपुर"));
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        element = wait.until(ExpectedConditions.presenceOfElementLocated(By.linkText("बिलासपुर")));
         return element;
     }
         public static WebElement city_hp_7(WebDriver driver){
-        element = driver.findElement(By.linkText("मंडी"));
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        element = wait.until(ExpectedConditions.presenceOfElementLocated(By.linkText("मंडी")));
         return element;
     }
         public static WebElement city_hp_8(WebDriver driver){
-        element = driver.findElement(By.linkText("रामपुर बुशहर"));
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        element = wait.until(ExpectedConditions.presenceOfElementLocated(By.linkText("रामपुर बुशहर")));
         return element;
     }
         public static WebElement city_hp_9(WebDriver driver){
-        element = driver.findElement(By.linkText("शिमला"));
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        driver.findElement(By.linkText("धर्मशाला")).click();
+        element = wait.until(ExpectedConditions.presenceOfElementLocated(By.linkText("शिमला")));
         return element;
     }
         public static WebElement city_hp_10(WebDriver driver){
-        element = driver.findElement(By.linkText("सिरमौर"));
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        element = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//a[contains(text(),'सिरमौर')]")));
         return element;
     }
-        public static WebElement city_hp_11(WebDriver driver){
-        element = driver.findElement(By.linkText("सोलन"));
+        public static WebElement city_hp_11(WebDriver driver){   
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        element = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//a[contains(text(),'सोलन')]")));
         return element;
     }
         public static WebElement city_hp_12(WebDriver driver){
-        element = driver.findElement(By.linkText("हमीरपुर (हि. प्र.)"));
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        element = wait.until(ExpectedConditions.presenceOfElementLocated(By.linkText("हमीरपुर (हि. प्र.)")));
         return element;
     }
         
         public static WebElement city_j_k(WebDriver driver){
-        element = driver.findElement(By.linkText("जम्मू और कश्मीर"));
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        element = wait.until(ExpectedConditions.presenceOfElementLocated(By.linkText("जम्मू और कश्मीर")));
         return element;
     }
         public static WebElement city_j_k_1(WebDriver driver){
-        element = driver.findElement(By.linkText("उधमपुर"));
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        element = wait.until(ExpectedConditions.presenceOfElementLocated(By.linkText("उधमपुर")));
         return element;
     }
         public static WebElement city_j_k_2(WebDriver driver){
-        element = driver.findElement(By.linkText("कठुआ"));
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        element = wait.until(ExpectedConditions.presenceOfElementLocated(By.linkText("कठुआ")));
         return element;
     }
         public static WebElement city_j_k_3(WebDriver driver){
-        element = driver.findElement(By.linkText("जम्मू"));
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        element = wait.until(ExpectedConditions.presenceOfElementLocated(By.linkText("जम्मू")));
         return element;
     }
         public static WebElement city_j_k_4(WebDriver driver){
-        element = driver.findElement(By.linkText("पुंछ"));
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        element = wait.until(ExpectedConditions.presenceOfElementLocated(By.linkText("पुंछ")));
         return element;
     }
         public static WebElement city_j_k_5(WebDriver driver){
-        element = driver.findElement(By.linkText("राजौरी"));
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        element = wait.until(ExpectedConditions.presenceOfElementLocated(By.linkText("राजौरी")));
         return element;
     }
         public static WebElement city_j_k_6(WebDriver driver){
-        element = driver.findElement(By.linkText("श्रीनगर"));
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        element = wait.until(ExpectedConditions.presenceOfElementLocated(By.linkText("श्रीनगर")));
         return element;
     }
         
         public static WebElement city_punjab(WebDriver driver){
-        element = driver.findElement(By.linkText("पंजाब"));
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        element = wait.until(ExpectedConditions.presenceOfElementLocated(By.linkText("पंजाब")));
         return element;
     }
         public static WebElement city_punjab_1(WebDriver driver){
-        element = driver.findElement(By.linkText("अमृतसर"));
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        element = wait.until(ExpectedConditions.presenceOfElementLocated(By.linkText("अमृतसर")));
         return element;
     }
         public static WebElement city_punjab_2(WebDriver driver){
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        element = wait.until(ExpectedConditions.presenceOfElementLocated(By.linkText("जालंधर")));
         element = driver.findElement(By.linkText("जालंधर"));
         return element;
     }
@@ -300,38 +385,47 @@ public class cityandstate {
         return element;
     }
         public static WebElement city_hariyana_9(WebDriver driver){
+        driver.findElement(By.linkText("More •••")).click();
         element = driver.findElement(By.linkText("फतेहाबाद"));
         return element;
     }
         public static WebElement city_hariyana_10(WebDriver driver){
+        driver.findElement(By.linkText("More •••")).click();
         element = driver.findElement(By.linkText("भिवानी"));
         return element;
     }
         public static WebElement city_hariyana_11(WebDriver driver){
+        driver.findElement(By.linkText("More •••")).click();
         element = driver.findElement(By.linkText("महेंद्रगढ़/नारनौल"));
         return element;
     }
         public static WebElement city_hariyana_12(WebDriver driver){
+        driver.findElement(By.linkText("More •••")).click();
         element = driver.findElement(By.linkText("यमुना नगर"));
         return element;
     }
         public static WebElement city_hariyana_13(WebDriver driver){
+        driver.findElement(By.linkText("More •••")).click();
         element = driver.findElement(By.linkText("रेवाड़ी"));
         return element;
     }
         public static WebElement city_hariyana_14(WebDriver driver){
+        driver.findElement(By.linkText("More •••")).click();
         element = driver.findElement(By.linkText("रोहतक"));
         return element;
     }
         public static WebElement city_hariyana_15(WebDriver driver){
+        driver.findElement(By.linkText("More •••")).click();
         element = driver.findElement(By.linkText("सिरसा"));
         return element;
     }
         public static WebElement city_hariyana_16(WebDriver driver){
+        driver.findElement(By.linkText("More •••")).click();
         element = driver.findElement(By.linkText("सोनीपत"));
         return element;
     }
         public static WebElement city_hariyana_17(WebDriver driver){
+        driver.findElement(By.linkText("More •••")).click();
         element = driver.findElement(By.linkText("हिसार"));
         return element;
     }
@@ -342,21 +436,25 @@ public class cityandstate {
     }
         
         public static WebElement city_Bihar(WebDriver driver){
+        driver.findElement(By.linkText("More •••")).click();
         element = driver.findElement(By.linkText("बिहार"));
         return element;
     }
         
         public static WebElement city_chhattisgarh(WebDriver driver){
+        driver.findElement(By.linkText("More •••")).click();
         element = driver.findElement(By.linkText("छत्तीसगढ़"));
         return element;
     }
         
         public static WebElement city_jharkhand(WebDriver driver){
+        driver.findElement(By.linkText("More •••")).click();
         element = driver.findElement(By.linkText("झारखण्ड"));
         return element;
     }
         
         public static WebElement city_mp(WebDriver driver){
+        driver.findElement(By.linkText("More •••")).click();
         element = driver.findElement(By.linkText("मध्य प्रदेश"));
         return element;
     }
