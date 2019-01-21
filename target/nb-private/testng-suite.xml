@@ -1,0 +1,19 @@
+
+
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Amarujala" verbose="10">
+    
+    <test name="amarujalasuite">
+            <classes>
+                <class name="com.amarujala.EpaperTest"> 
+                    <methods>
+                        <include name= "checkPage200"/> 
+                        		
+                    </methods> 
+                </class> 
+            </classes>  
+                 
+    </test>
+
+</suite>
