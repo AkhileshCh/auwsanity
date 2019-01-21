@@ -6,9 +6,9 @@
     
     <test name="amarujalasuite">
             <classes>
-                <class name="com.amarujala.HomepageNGTest"> 
+                <class name="com.amarujala.EpaperTest"> 
                     <methods>
-                        <include name= "cityandstateTest"/> 
+                        <include name= "checkPage200"/> 
                         		
                     </methods> 
                 </class> 

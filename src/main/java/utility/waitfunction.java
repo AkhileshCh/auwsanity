@@ -17,7 +17,7 @@ public class waitfunction {
              while (true) // Handle timeout somewhere
                      {
                  JavascriptExecutor js = (JavascriptExecutor) driver; 
-                   boolean ajaxIsComplete = (boolean) js.executeScript("return jQuery.active == 0");
+                   boolean ajaxIsComplete = (boolean) js.executeScript("return window.jQuery != undefined && jQuery.active === 0");
                       if (ajaxIsComplete)
                            break;
                     Thread.sleep(100);
