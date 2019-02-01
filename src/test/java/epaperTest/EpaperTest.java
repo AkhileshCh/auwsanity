@@ -3,24 +3,20 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.amarujala;
+package epaperTest;
 
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import org.openqa.selenium.WebDriver;
-import static org.testng.Assert.*;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import amarujala_epaper.*;
 import com.relevantcodes.extentreports.LogStatus;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Calendar;
-import java.util.List;
-import org.openqa.selenium.WebElement;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -40,12 +36,12 @@ public class EpaperTest {
     public EpaperTest() {
     }
     
-     @BeforeClass(alwaysRun = true)
+    @BeforeClass(alwaysRun = true)
     public void setUp() throws Exception {
         driver = drivers.Chromesetup();
     }
 
-     @BeforeTest
+    @BeforeClass
     public void startReport() {
         
         extent = new ExtentReports(System.getProperty("user.dir") + "/test-output/amarujalaEpaper.html", true);
@@ -57,7 +53,7 @@ public class EpaperTest {
         extent.loadConfig(new File(System.getProperty("user.dir") + "\\extent-config.xml"));
     }
 
-    @Test
+    @Test(priority=2)
     public void checkPage200(){
        logger = extent.startTest("epaperPageAvailable"); 
        driver.get("https://epaper.amarujala.com/");
@@ -194,7 +190,7 @@ public class EpaperTest {
                             "vk",
                             "ym"};
        ArrayList elem = epaper.get_cityname_epaper(driver);
-       for(int j=0 ;citycodes.length<j;j++ ){
+       for(int j=0 ;citycodes.length>=j;j++ ){
        for(int i=0 ;elem.size()>=i;i++){
            int year = Calendar.getInstance().get(Calendar.YEAR);
            int month = Calendar.getInstance().get(Calendar.MONTH);

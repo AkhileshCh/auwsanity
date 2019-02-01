@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="12" failures="2" name="TestSuite" time="4,370.799" errors="0" skipped="0">
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="1,530.103" tests="3" errors="0" skipped="0" failures="2">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64"/>
-    <property name="java.vm.version" value="25.191-b12"/>
+    <property name="java.vm.version" value="25.201-b09"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=":"/>
@@ -15,13 +15,12 @@
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="user.dir" value="/home/akhilesh/NetBeansProjects/AmarujalaSanity/AmarujalaSanity"/>
-    <property name="java.runtime.version" value="1.8.0_191-b12"/>
+    <property name="java.runtime.version" value="1.8.0_201-b09"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/endorsed"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.io.tmpdir" value="/tmp"/>
-    <property name="line.separator" value="
-"/>
+    <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Linux"/>
     <property name="maven.ext.class.path" value="/usr/local/netbeans-8.2/java/maven-nblib/netbeans-eventspy.jar"/>
@@ -31,7 +30,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="4.15.0-43-generic"/>
+    <property name="os.version" value="4.15.0-44-generic"/>
     <property name="user.home" value="/home/akhilesh"/>
     <property name="user.timezone" value="Asia/Kolkata"/>
     <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
@@ -48,7 +47,7 @@
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="netbeans.testng.action" value="true"/>
-    <property name="java.version" value="1.8.0_191"/>
+    <property name="java.version" value="1.8.0_201"/>
     <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext"/>
     <property name="securerandom.source" value="file:/dev/./urandom"/>
     <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes"/>
@@ -61,313 +60,295 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="com.amarujala.EpaperTest" name="checkPage200" time="864.816">
+  <testcase name="firkeepageview" classname="firkeeTest.firkeeTest" time="296.707"/>
+  <testcase name="checkPage200" classname="epaperTest.EpaperTest" time="951.695">
     <failure message="132" type="java.lang.ArrayIndexOutOfBoundsException">java.lang.ArrayIndexOutOfBoundsException: 132
-	at com.amarujala.EpaperTest.checkPage200(EpaperTest.java:203)
+	at epaperTest.EpaperTest.checkPage200(EpaperTest.java:199)
 </failure>
-    <system-out> https://epaperwmimg.amarujala.com/2019/01/21/ac/14/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/ad/14/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/ct/16/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/dt/16/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/ca/16/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/al/14/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/am/20/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/an/14/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/au/16/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/az/18/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/bn/16/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/bg/16/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/bh/14/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/bl/18/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/bd/18/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/bb/14/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/cb/16/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/db/16/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/bs/16/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/bo/18/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/bw/12/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/bj/16/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/bp/14/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/bu/16/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/ch/14/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/cd/18/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/cc/20/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/ci/12/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/dc/18/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/dl/24/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/do/16/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/et/18/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/ew/16/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/fz/14/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/fb/14/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/fd/16/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/ft/12/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/fp/18/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/fr/18/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/gp/14/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/gh/16/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/ga/16/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/gz/18/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/gb/14/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/gc/16/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/gd/14/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/gn/16/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/gr/14/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/ha/14/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/hm/18/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/hp/16/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/ho/18/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/hd/16/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/ht/16/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/hs/12/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/jl/14/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/ja/16/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/cj/14/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/dj/14/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/jj/12/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/jy/14/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/jd/14/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/jn/12/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/jr/20/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/jp/14/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/kt/20/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/kg/16/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/kj/16/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/kc/14/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/kd/16/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/gm/14/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/kn/20/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/ku/14/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/kh/14/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/lk/16/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/kw/16/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/kl/14/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/kk/20/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/ks/16/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/lt/14/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/lc/16/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/mp/18/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/ma/16/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/mt/18/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/mu/18/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/cm/12/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/dm/12/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/mh/14/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/mz/18/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/ml/20/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/mc/16/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/dh/14/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/mf/16/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/nn/12/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/nd/16/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/pk/20/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/pn/20/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/pb/14/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/pt/14/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/pg/14/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/na/16/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/rb/14/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/rj/18/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/rm/14/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/rp/14/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/rw/12/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/rk/16/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/rt/12/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/rr/14/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/sc/16/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/st/16/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/sa/14/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/sk/14/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/sp/16/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/md/16/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/sh/16/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/sn/14/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/sm/14/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/sr/12/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/si/14/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/sl/14/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/sb/18/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/so/12/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/su/14/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/th/16/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/um/14/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/us/16/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/un/14/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/uo/18/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/vc/20/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/vk/18/hdimage.jpg
-Tested And Working Good
- https://epaperwmimg.amarujala.com/2019/01/21/ym/20/hdimage.jpg
-Tested And Working Good
-</system-out>
-    <system-err>Jan 21, 2019 10:59:26 AM com.relevantcodes.extentreports.ExtentReports loadConfig
-WARNING: Unable to perform report configuration. The file /home/akhilesh/NetBeansProjects/AmarujalaSanity/AmarujalaSanity\extent-config.xml was not found.
-Jan 21, 2019 10:59:26 AM com.relevantcodes.extentreports.ExtentReports loadConfig
-WARNING: Unable to perform report configuration. The file /home/akhilesh/NetBeansProjects/AmarujalaSanity/AmarujalaSanity\extent-config.xml was not found.
-Starting ChromeDriver 2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5) on port 15416
+    <system-out><![CDATA[ https://epaperwmimg.amarujala.com/2019/02/1/ac/14/hdimage.jpg
+0:city14****404
+ https://epaperwmimg.amarujala.com/2019/02/1/ad/14/hdimage.jpg
+1:city14****404
+ https://epaperwmimg.amarujala.com/2019/02/1/ct/16/hdimage.jpg
+2:city16****404
+ https://epaperwmimg.amarujala.com/2019/02/1/dt/16/hdimage.jpg
+3:city16****404
+ https://epaperwmimg.amarujala.com/2019/02/1/ca/16/hdimage.jpg
+4:city16****404
+ https://epaperwmimg.amarujala.com/2019/02/1/al/16/hdimage.jpg
+5:city16****404
+ https://epaperwmimg.amarujala.com/2019/02/1/am/14/hdimage.jpg
+6:city14****404
+ https://epaperwmimg.amarujala.com/2019/02/1/an/14/hdimage.jpg
+7:city14****404
+ https://epaperwmimg.amarujala.com/2019/02/1/au/16/hdimage.jpg
+8:city16****404
+ https://epaperwmimg.amarujala.com/2019/02/1/az/16/hdimage.jpg
+9:city16****404
+ https://epaperwmimg.amarujala.com/2019/02/1/bn/16/hdimage.jpg
+10:city16****404
+ https://epaperwmimg.amarujala.com/2019/02/1/bg/16/hdimage.jpg
+11:city16****404
+ https://epaperwmimg.amarujala.com/2019/02/1/bh/14/hdimage.jpg
+12:city14****404
+ https://epaperwmimg.amarujala.com/2019/02/1/bl/16/hdimage.jpg
+13:city16****404
+ https://epaperwmimg.amarujala.com/2019/02/1/bd/18/hdimage.jpg
+14:city18****404
+ https://epaperwmimg.amarujala.com/2019/02/1/bb/14/hdimage.jpg
+15:city14****404
+ https://epaperwmimg.amarujala.com/2019/02/1/cb/16/hdimage.jpg
+16:city16****404
+ https://epaperwmimg.amarujala.com/2019/02/1/db/16/hdimage.jpg
+17:city16****404
+ https://epaperwmimg.amarujala.com/2019/02/1/bs/16/hdimage.jpg
+18:city16****404
+ https://epaperwmimg.amarujala.com/2019/02/1/bo/14/hdimage.jpg
+19:city14****404
+ https://epaperwmimg.amarujala.com/2019/02/1/bw/12/hdimage.jpg
+20:city12****404
+ https://epaperwmimg.amarujala.com/2019/02/1/bj/16/hdimage.jpg
+21:city16****404
+ https://epaperwmimg.amarujala.com/2019/02/1/bp/14/hdimage.jpg
+22:city14****404
+ https://epaperwmimg.amarujala.com/2019/02/1/bu/18/hdimage.jpg
+23:city18****404
+ https://epaperwmimg.amarujala.com/2019/02/1/ch/14/hdimage.jpg
+24:city14****404
+ https://epaperwmimg.amarujala.com/2019/02/1/cd/14/hdimage.jpg
+25:city14****404
+ https://epaperwmimg.amarujala.com/2019/02/1/cc/12/hdimage.jpg
+26:city12****404
+ https://epaperwmimg.amarujala.com/2019/02/1/ci/12/hdimage.jpg
+27:city12****404
+ https://epaperwmimg.amarujala.com/2019/02/1/dc/18/hdimage.jpg
+28:city18****404
+ https://epaperwmimg.amarujala.com/2019/02/1/dl/18/hdimage.jpg
+29:city18****404
+ https://epaperwmimg.amarujala.com/2019/02/1/do/16/hdimage.jpg
+30:city16****404
+ https://epaperwmimg.amarujala.com/2019/02/1/et/16/hdimage.jpg
+31:city16****404
+ https://epaperwmimg.amarujala.com/2019/02/1/ew/16/hdimage.jpg
+32:city16****404
+ https://epaperwmimg.amarujala.com/2019/02/1/fz/14/hdimage.jpg
+33:city14****404
+ https://epaperwmimg.amarujala.com/2019/02/1/fb/16/hdimage.jpg
+34:city16****404
+ https://epaperwmimg.amarujala.com/2019/02/1/fd/16/hdimage.jpg
+35:city16****404
+ https://epaperwmimg.amarujala.com/2019/02/1/ft/12/hdimage.jpg
+36:city12****404
+ https://epaperwmimg.amarujala.com/2019/02/1/fp/18/hdimage.jpg
+37:city18****404
+ https://epaperwmimg.amarujala.com/2019/02/1/fr/16/hdimage.jpg
+38:city16****404
+ https://epaperwmimg.amarujala.com/2019/02/1/gp/16/hdimage.jpg
+39:city16****404
+ https://epaperwmimg.amarujala.com/2019/02/1/gh/16/hdimage.jpg
+40:city16****404
+ https://epaperwmimg.amarujala.com/2019/02/1/ga/18/hdimage.jpg
+41:city18****404
+ https://epaperwmimg.amarujala.com/2019/02/1/gz/16/hdimage.jpg
+42:city16****404
+ https://epaperwmimg.amarujala.com/2019/02/1/gb/14/hdimage.jpg
+43:city14****404
+ https://epaperwmimg.amarujala.com/2019/02/1/gc/18/hdimage.jpg
+44:city18****404
+ https://epaperwmimg.amarujala.com/2019/02/1/gd/16/hdimage.jpg
+45:city16****404
+ https://epaperwmimg.amarujala.com/2019/02/1/gn/18/hdimage.jpg
+46:city18****404
+ https://epaperwmimg.amarujala.com/2019/02/1/gr/16/hdimage.jpg
+47:city16****404
+ https://epaperwmimg.amarujala.com/2019/02/1/ha/14/hdimage.jpg
+48:city14****404
+ https://epaperwmimg.amarujala.com/2019/02/1/hm/18/hdimage.jpg
+49:city18****404
+ https://epaperwmimg.amarujala.com/2019/02/1/hp/18/hdimage.jpg
+50:city18****404
+ https://epaperwmimg.amarujala.com/2019/02/1/ho/18/hdimage.jpg
+51:city18****404
+ https://epaperwmimg.amarujala.com/2019/02/1/hd/16/hdimage.jpg
+52:city16****404
+ https://epaperwmimg.amarujala.com/2019/02/1/ht/14/hdimage.jpg
+53:city14****404
+ https://epaperwmimg.amarujala.com/2019/02/1/hs/12/hdimage.jpg
+54:city12****404
+ https://epaperwmimg.amarujala.com/2019/02/1/jl/14/hdimage.jpg
+55:city14****404
+ https://epaperwmimg.amarujala.com/2019/02/1/ja/16/hdimage.jpg
+56:city16****404
+ https://epaperwmimg.amarujala.com/2019/02/1/cj/16/hdimage.jpg
+57:city16****404
+ https://epaperwmimg.amarujala.com/2019/02/1/dj/16/hdimage.jpg
+58:city16****404
+ https://epaperwmimg.amarujala.com/2019/02/1/jj/12/hdimage.jpg
+59:city12****404
+ https://epaperwmimg.amarujala.com/2019/02/1/jy/14/hdimage.jpg
+60:city14****404
+ https://epaperwmimg.amarujala.com/2019/02/1/jd/14/hdimage.jpg
+61:city14****404
+ https://epaperwmimg.amarujala.com/2019/02/1/jn/12/hdimage.jpg
+62:city12****404
+ https://epaperwmimg.amarujala.com/2019/02/1/jr/16/hdimage.jpg
+63:city16****404
+ https://epaperwmimg.amarujala.com/2019/02/1/jp/16/hdimage.jpg
+64:city16****404
+ https://epaperwmimg.amarujala.com/2019/02/1/kt/14/hdimage.jpg
+65:city14****404
+ https://epaperwmimg.amarujala.com/2019/02/1/kg/16/hdimage.jpg
+66:city16****404
+ https://epaperwmimg.amarujala.com/2019/02/1/kj/16/hdimage.jpg
+67:city16****404
+ https://epaperwmimg.amarujala.com/2019/02/1/kc/16/hdimage.jpg
+68:city16****404
+ https://epaperwmimg.amarujala.com/2019/02/1/kd/16/hdimage.jpg
+69:city16****404
+ https://epaperwmimg.amarujala.com/2019/02/1/gm/16/hdimage.jpg
+70:city16****404
+ https://epaperwmimg.amarujala.com/2019/02/1/kn/14/hdimage.jpg
+71:city14****404
+ https://epaperwmimg.amarujala.com/2019/02/1/ku/16/hdimage.jpg
+72:city16****404
+ https://epaperwmimg.amarujala.com/2019/02/1/kh/16/hdimage.jpg
+73:city16****404
+ https://epaperwmimg.amarujala.com/2019/02/1/lk/16/hdimage.jpg
+74:city16****404
+ https://epaperwmimg.amarujala.com/2019/02/1/kw/16/hdimage.jpg
+75:city16****404
+ https://epaperwmimg.amarujala.com/2019/02/1/kl/14/hdimage.jpg
+76:city14****404
+ https://epaperwmimg.amarujala.com/2019/02/1/kk/14/hdimage.jpg
+77:city14****404
+ https://epaperwmimg.amarujala.com/2019/02/1/ks/16/hdimage.jpg
+78:city16****404
+ https://epaperwmimg.amarujala.com/2019/02/1/lt/14/hdimage.jpg
+79:city14****404
+ https://epaperwmimg.amarujala.com/2019/02/1/lc/18/hdimage.jpg
+80:city18****404
+ https://epaperwmimg.amarujala.com/2019/02/1/mp/16/hdimage.jpg
+81:city16****404
+ https://epaperwmimg.amarujala.com/2019/02/1/ma/16/hdimage.jpg
+82:city16****404
+ https://epaperwmimg.amarujala.com/2019/02/1/mt/18/hdimage.jpg
+83:city18****404
+ https://epaperwmimg.amarujala.com/2019/02/1/mu/14/hdimage.jpg
+84:city14****404
+ https://epaperwmimg.amarujala.com/2019/02/1/cm/12/hdimage.jpg
+85:city12****404
+ https://epaperwmimg.amarujala.com/2019/02/1/dm/12/hdimage.jpg
+86:city12****404
+ https://epaperwmimg.amarujala.com/2019/02/1/mh/14/hdimage.jpg
+87:city14****404
+ https://epaperwmimg.amarujala.com/2019/02/1/mz/14/hdimage.jpg
+88:city14****404
+ https://epaperwmimg.amarujala.com/2019/02/1/ml/12/hdimage.jpg
+89:city12****404
+ https://epaperwmimg.amarujala.com/2019/02/1/mc/16/hdimage.jpg
+90:city16****404
+ https://epaperwmimg.amarujala.com/2019/02/1/dh/16/hdimage.jpg
+91:city16****404
+ https://epaperwmimg.amarujala.com/2019/02/1/mf/16/hdimage.jpg
+92:city16****404
+ https://epaperwmimg.amarujala.com/2019/02/1/nn/12/hdimage.jpg
+93:city12****404
+ https://epaperwmimg.amarujala.com/2019/02/1/nd/18/hdimage.jpg
+94:city18****404
+ https://epaperwmimg.amarujala.com/2019/02/1/pk/12/hdimage.jpg
+95:city12****404
+ https://epaperwmimg.amarujala.com/2019/02/1/pn/14/hdimage.jpg
+96:city14****404
+ https://epaperwmimg.amarujala.com/2019/02/1/pb/14/hdimage.jpg
+97:city14****404
+ https://epaperwmimg.amarujala.com/2019/02/1/pt/16/hdimage.jpg
+98:city16****404
+ https://epaperwmimg.amarujala.com/2019/02/1/pg/16/hdimage.jpg
+99:city16****404
+ https://epaperwmimg.amarujala.com/2019/02/1/na/16/hdimage.jpg
+100:city16****404
+ https://epaperwmimg.amarujala.com/2019/02/1/rb/14/hdimage.jpg
+101:city14****404
+ https://epaperwmimg.amarujala.com/2019/02/1/rj/18/hdimage.jpg
+102:city18****404
+ https://epaperwmimg.amarujala.com/2019/02/1/rm/16/hdimage.jpg
+103:city16****404
+ https://epaperwmimg.amarujala.com/2019/02/1/rp/16/hdimage.jpg
+104:city16****404
+ https://epaperwmimg.amarujala.com/2019/02/1/rw/12/hdimage.jpg
+105:city12****404
+ https://epaperwmimg.amarujala.com/2019/02/1/rk/16/hdimage.jpg
+106:city16****404
+ https://epaperwmimg.amarujala.com/2019/02/1/rt/12/hdimage.jpg
+107:city12****404
+ https://epaperwmimg.amarujala.com/2019/02/1/rr/16/hdimage.jpg
+108:city16****404
+ https://epaperwmimg.amarujala.com/2019/02/1/sc/16/hdimage.jpg
+109:city16****404
+ https://epaperwmimg.amarujala.com/2019/02/1/st/16/hdimage.jpg
+110:city16****404
+ https://epaperwmimg.amarujala.com/2019/02/1/sa/16/hdimage.jpg
+111:city16****404
+ https://epaperwmimg.amarujala.com/2019/02/1/sk/14/hdimage.jpg
+112:city14****404
+ https://epaperwmimg.amarujala.com/2019/02/1/sp/16/hdimage.jpg
+113:city16****404
+ https://epaperwmimg.amarujala.com/2019/02/1/md/16/hdimage.jpg
+114:city16****404
+ https://epaperwmimg.amarujala.com/2019/02/1/sh/16/hdimage.jpg
+115:city16****404
+ https://epaperwmimg.amarujala.com/2019/02/1/sn/14/hdimage.jpg
+116:city14****404
+ https://epaperwmimg.amarujala.com/2019/02/1/sm/16/hdimage.jpg
+117:city16****404
+ https://epaperwmimg.amarujala.com/2019/02/1/sr/12/hdimage.jpg
+118:city12****404
+ https://epaperwmimg.amarujala.com/2019/02/1/si/14/hdimage.jpg
+119:city14****404
+ https://epaperwmimg.amarujala.com/2019/02/1/sl/16/hdimage.jpg
+120:city16****404
+ https://epaperwmimg.amarujala.com/2019/02/1/sb/16/hdimage.jpg
+121:city16****404
+ https://epaperwmimg.amarujala.com/2019/02/1/so/12/hdimage.jpg
+122:city12****404
+ https://epaperwmimg.amarujala.com/2019/02/1/su/14/hdimage.jpg
+123:city14****404
+ https://epaperwmimg.amarujala.com/2019/02/1/th/18/hdimage.jpg
+124:city18****404
+ https://epaperwmimg.amarujala.com/2019/02/1/um/16/hdimage.jpg
+125:city16****404
+ https://epaperwmimg.amarujala.com/2019/02/1/us/16/hdimage.jpg
+126:city16****404
+ https://epaperwmimg.amarujala.com/2019/02/1/un/14/hdimage.jpg
+127:city14****404
+ https://epaperwmimg.amarujala.com/2019/02/1/uo/18/hdimage.jpg
+128:city18****404
+ https://epaperwmimg.amarujala.com/2019/02/1/vc/18/hdimage.jpg
+129:city18****404
+ https://epaperwmimg.amarujala.com/2019/02/1/vk/18/hdimage.jpg
+130:city18****404
+ https://epaperwmimg.amarujala.com/2019/02/1/ym/14/hdimage.jpg
+131:city14****404
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5) on port 20508
 Only local connections are allowed.
-Jan 21, 2019 10:59:32 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Feb 01, 2019 11:03:27 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
-</system-err>
+Feb 01, 2019 11:03:27 AM com.relevantcodes.extentreports.ExtentReports loadConfig
+WARNING: Unable to perform report configuration. The file /home/akhilesh/NetBeansProjects/AmarujalaSanity/AmarujalaSanity\extent-config.xml was not found.
+]]></system-err>
   </testcase>
-  <testcase classname="com.amarujala.HomepageNGTest" name="hompepageTest" time="454.832"/>
-  <testcase classname="com.amarujala.HomepageNGTest" name="stateBihar" time="62.684"/>
-  <testcase classname="com.amarujala.HomepageNGTest" name="stateChhattisgarh" time="60.492"/>
-  <testcase classname="com.amarujala.HomepageNGTest" name="stateDelhi" time="309.516"/>
-  <testcase classname="com.amarujala.HomepageNGTest" name="stateHP" time="510.137"/>
-  <testcase classname="com.amarujala.HomepageNGTest" name="stateJammu_Kasmeer" time="400.149"/>
-  <testcase classname="com.amarujala.HomepageNGTest" name="stateJharkhand" time="84.642"/>
-  <testcase classname="com.amarujala.HomepageNGTest" name="stateMadhyapradesh" time="84.187"/>
-  <testcase classname="com.amarujala.HomepageNGTest" name="stateRajasthan" time="77.391"/>
-  <testcase classname="com.amarujala.HomepageNGTest" name="stateUP" time="821.111"/>
-  <testcase classname="com.amarujala.HomepageNGTest" name="stateUttrakhand" time="612.901">
-    <failure message="element not interactable
+  <testcase name="resultpageview" classname="ResultTest.ResultTest" time="281.701">
+    <failure message="stale element reference: element is not attached to the page document&#10;  (Session info: chrome=71.0.3578.98)&#10;  (Driver info: chromedriver=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5),platform=Linux 4.15.0-44-generic x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 12 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: &apos;3.3.1&apos;, revision: &apos;5234b325d5&apos;, time: &apos;2017-03-10 09:10:29 +0000&apos;&#10;System info: host: &apos;akhilesh-Lenovo-B40-70&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-44-generic&apos;, java.version: &apos;1.8.0_201&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:45809}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5), userDataDir=/tmp/.org.chromium.Chromium.EU2eow}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.98, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: 8257e8c8e7a435b3ecd46202589b2678" type="org.openqa.selenium.StaleElementReferenceException">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
   (Session info: chrome=71.0.3578.98)
-  (Driver info: chromedriver=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5),platform=Linux 4.15.0-43-generic x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 30.06 seconds
-Build info: version: &apos;3.3.1&apos;, revision: &apos;5234b325d5&apos;, time: &apos;2017-03-10 09:10:29 +0000&apos;
-System info: host: &apos;akhilesh-Lenovo-B40-70&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-43-generic&apos;, java.version: &apos;1.8.0_191&apos;
+  (Driver info: chromedriver=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5),platform=Linux 4.15.0-44-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 12 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.3.1', revision: '5234b325d5', time: '2017-03-10 09:10:29 +0000'
+System info: host: 'akhilesh-Lenovo-B40-70', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-44-generic', java.version: '1.8.0_201'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:36021}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5), userDataDir=/tmp/.org.chromium.Chromium.SV7nQL}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.98, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 117c2fc367ee13e3089c36cb68089fde" type="org.openqa.selenium.ElementNotVisibleException">org.openqa.selenium.ElementNotVisibleException: element not interactable
-  (Session info: chrome=71.0.3578.98)
-  (Driver info: chromedriver=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5),platform=Linux 4.15.0-43-generic x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 30.06 seconds
-Build info: version: &apos;3.3.1&apos;, revision: &apos;5234b325d5&apos;, time: &apos;2017-03-10 09:10:29 +0000&apos;
-System info: host: &apos;akhilesh-Lenovo-B40-70&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-43-generic&apos;, java.version: &apos;1.8.0_191&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:36021}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5), userDataDir=/tmp/.org.chromium.Chromium.SV7nQL}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.98, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 117c2fc367ee13e3089c36cb68089fde
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:45809}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5), userDataDir=/tmp/.org.chromium.Chromium.EU2eow}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.98, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 8257e8c8e7a435b3ecd46202589b2678
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -377,54 +358,51 @@ Session ID: 117c2fc367ee13e3089c36cb68089fde
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at com.amarujala.HomepageNGTest.stateUttrakhand(HomepageNGTest.java:1085)
+	at ResultTest.ResultTest.resultpageview(ResultTest.java:101)
 </failure>
-    <system-out>Exception for L28org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 9.999
+    <system-out><![CDATA[Government Job | Upcoming Job Opportunities‎, Career Options In India - Results.amarujala.com
+Exception for Home  org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"tag name","selector":"header"}
   (Session info: chrome=71.0.3578.98)
-  (Driver info: chromedriver=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5),platform=Linux 4.15.0-43-generic x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 60.04 seconds
-Build info: version: &apos;3.3.1&apos;, revision: &apos;5234b325d5&apos;, time: &apos;2017-03-10 09:10:29 +0000&apos;
-System info: host: &apos;akhilesh-Lenovo-B40-70&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-43-generic&apos;, java.version: &apos;1.8.0_191&apos;
+  (Driver info: chromedriver=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5),platform=Linux 4.15.0-44-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.3.1', revision: '5234b325d5', time: '2017-03-10 09:10:29 +0000'
+System info: host: 'akhilesh-Lenovo-B40-70', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-44-generic', java.version: '1.8.0_201'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:36021}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5), userDataDir=/tmp/.org.chromium.Chromium.SV7nQL}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.98, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 117c2fc367ee13e3089c36cb68089fde
-L29
-L30
-Exception for L31org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 9.999
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:45809}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5), userDataDir=/tmp/.org.chromium.Chromium.EU2eow}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.98, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 8257e8c8e7a435b3ecd46202589b2678
+*** Element info: {Using=tag name, value=header}
+Exam Alerts: Board Exam Results 2018, Online Board Exam Results, India Results 2018 - Results.amarujala.com
+Exception for Home  org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"tag name","selector":"header"}
   (Session info: chrome=71.0.3578.98)
-  (Driver info: chromedriver=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5),platform=Linux 4.15.0-43-generic x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 60.04 seconds
-Build info: version: &apos;3.3.1&apos;, revision: &apos;5234b325d5&apos;, time: &apos;2017-03-10 09:10:29 +0000&apos;
-System info: host: &apos;akhilesh-Lenovo-B40-70&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-43-generic&apos;, java.version: &apos;1.8.0_191&apos;
+  (Driver info: chromedriver=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5),platform=Linux 4.15.0-44-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.3.1', revision: '5234b325d5', time: '2017-03-10 09:10:29 +0000'
+System info: host: 'akhilesh-Lenovo-B40-70', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-44-generic', java.version: '1.8.0_201'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:36021}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5), userDataDir=/tmp/.org.chromium.Chromium.SV7nQL}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.98, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 117c2fc367ee13e3089c36cb68089fde
-L32
-L33
-L34
-L35
-</system-out>
-    <system-err>[1548052354.385][SEVERE]: Timed out receiving message from renderer: 8.822
-[1548052354.391][WARNING]: screenshot failed, retrying
-[1548052364.391][SEVERE]: Timed out receiving message from renderer: 10.000
-[1548052374.400][SEVERE]: Timed out receiving message from renderer: 10.000
-[1548052374.403][WARNING]: screenshot failed, retrying
-[1548052384.403][SEVERE]: Timed out receiving message from renderer: 10.000
-[1548052394.411][SEVERE]: Timed out receiving message from renderer: 10.000
-[1548052394.415][WARNING]: screenshot failed, retrying
-[1548052404.416][SEVERE]: Timed out receiving message from renderer: 9.999
-[1548052546.341][SEVERE]: Timed out receiving message from renderer: 8.961
-[1548052546.346][WARNING]: screenshot failed, retrying
-[1548052556.346][SEVERE]: Timed out receiving message from renderer: 10.000
-[1548052566.354][SEVERE]: Timed out receiving message from renderer: 10.000
-[1548052566.360][WARNING]: screenshot failed, retrying
-[1548052576.360][SEVERE]: Timed out receiving message from renderer: 10.000
-[1548052586.366][SEVERE]: Timed out receiving message from renderer: 10.000
-[1548052586.370][WARNING]: screenshot failed, retrying
-[1548052596.370][SEVERE]: Timed out receiving message from renderer: 9.999
-[1548052637.016][SEVERE]: Timed out receiving message from renderer: 10.000
-[1548052637.019][WARNING]: screenshot failed, retrying
-[1548052647.019][SEVERE]: Timed out receiving message from renderer: 9.999
-</system-err>
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:45809}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5), userDataDir=/tmp/.org.chromium.Chromium.EU2eow}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.98, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 8257e8c8e7a435b3ecd46202589b2678
+*** Element info: {Using=tag name, value=header}
+Result Alerts 2018, Board Result Alerts 2018, Online Board Result Alerts And Notification 2018 – Results.amarujala.com
+Exception for Home  org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"tag name","selector":"header"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5),platform=Linux 4.15.0-44-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.3.1', revision: '5234b325d5', time: '2017-03-10 09:10:29 +0000'
+System info: host: 'akhilesh-Lenovo-B40-70', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-44-generic', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:45809}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5), userDataDir=/tmp/.org.chromium.Chromium.EU2eow}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.98, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 8257e8c8e7a435b3ecd46202589b2678
+*** Element info: {Using=tag name, value=header}
+]]></system-out>
+    <system-err><![CDATA[Feb 01, 2019 11:19:20 AM com.relevantcodes.extentreports.ExtentReports loadConfig
+WARNING: Unable to perform report configuration. The file /home/akhilesh/NetBeansProjects/AmarujalaSanity/AmarujalaSanity\extent-config.xml was not found.
+Starting ChromeDriver 2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5) on port 21243
+Only local connections are allowed.
+Feb 01, 2019 11:19:26 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
   </testcase>
 </testsuite>

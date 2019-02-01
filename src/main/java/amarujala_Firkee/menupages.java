@@ -17,28 +17,29 @@ public class menupages {
     
     private static WebElement element = null;
     
+    
     public static WebElement firkee_cat_0(WebDriver driver){
-        element = driver.findElement(By.xpath("/html/body/div[4]/div/div/div/nav/ul/li[1]/span"));
+        element = driver.findElement(By.linkText("होम"));
         return element;
     }
      
     public static WebElement firkee_cat_1(WebDriver driver){
-        element = driver.findElement(By.xpath("/html/body/div[4]/div/div/div/nav/ul/li[1]/span"));
+        element = driver.findElement(By.linkText("वायरल"));
         return element;
     }
     
     public static WebElement firkee_cat_2(WebDriver driver){
-        element = driver.findElement(By.xpath("/html/body/div[4]/div/div/div/nav/ul/li[1]/span"));
+        element = driver.findElement(By.linkText("पंचायत"));
         return element;
     }
     
     public static WebElement firkee_cat_3(WebDriver driver){
-        element = driver.findElement(By.xpath("/html/body/div[4]/div/div/div/nav/ul/li[1]/span"));
+        element = driver.findElement(By.linkText("फोटो"));
         return element;
     }
     
     public static WebElement firkee_cat_4(WebDriver driver){
-        element = driver.findElement(By.xpath("/html/body/div[4]/div/div/div/nav/ul/li[1]/span"));
+        element = driver.findElement(By.linkText("वीडियो"));
         return element;
     }
 }

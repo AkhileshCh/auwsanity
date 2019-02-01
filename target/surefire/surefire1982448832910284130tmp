@@ -1,7 +1,0 @@
-#surefire
-#Mon Jan 14 17:53:54 IST 2019
-maven.ext.class.path=/usr/local/netbeans-8.2/java/maven-nblib/netbeans-eventspy.jar
-netbeans.testng.action=true
-user.dir=/home/akhilesh/NetBeansProjects/AmarujalaSanity/AmarujalaSanity
-localRepository=/home/akhilesh/.m2/repository
-basedir=/home/akhilesh/NetBeansProjects/AmarujalaSanity/AmarujalaSanity

@@ -1,29 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite verbose="0" name="Failed suite [Command line suite]">
-  <test name="Command line test(failed)">
+<suite thread-count="3" verbose="0" name="Failed suite [Amarujala]" parallel="classes">
+  <test name="EpaperTest(failed)" parallel="classes">
     <classes>
-      <class name="com.amarujala.HomepageNGTest">
+      <class name="firkeeTest.firkeeTest">
         <methods>
-          <include name="startReport"/>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="stateUttrakhand"/>
           <include name="endReport"/>
+          <include name="startReport"/>
           <include name="getResult"/>
         </methods>
-      </class> <!-- com.amarujala.HomepageNGTest -->
-      <class name="com.amarujala.EpaperTest">
+      </class> <!-- firkeeTest.firkeeTest -->
+      <class name="epaperTest.EpaperTest">
         <methods>
-          <include name="startReport"/>
           <include name="tearDownMethod"/>
-          <include name="tearDown"/>
           <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="startReport"/>
           <include name="endReport"/>
           <include name="checkPage200"/>
           <include name="getResult"/>
         </methods>
-      </class> <!-- com.amarujala.EpaperTest -->
+      </class> <!-- epaperTest.EpaperTest -->
+      <class name="ResultTest.ResultTest">
+        <methods>
+          <include name="getResult"/>
+          <include name="endReport"/>
+          <include name="startReport"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- ResultTest.ResultTest -->
     </classes>
-  </test> <!-- Command line test(failed) -->
-</suite> <!-- Failed suite [Command line suite] -->
+  </test> <!-- EpaperTest(failed) -->
+  <test name="ResultTest(failed)" parallel="classes">
+    <classes>
+      <class name="firkeeTest.firkeeTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="endReport"/>
+          <include name="startReport"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- firkeeTest.firkeeTest -->
+      <class name="epaperTest.EpaperTest">
+        <methods>
+          <include name="tearDownMethod"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="startReport"/>
+          <include name="endReport"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- epaperTest.EpaperTest -->
+      <class name="ResultTest.ResultTest">
+        <methods>
+          <include name="getResult"/>
+          <include name="endReport"/>
+          <include name="startReport"/>
+          <include name="tearDown"/>
+          <include name="resultpageview"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- ResultTest.ResultTest -->
+    </classes>
+  </test> <!-- ResultTest(failed) -->
+</suite> <!-- Failed suite [Amarujala] -->
