@@ -33,4 +33,10 @@ public class scrollfunctions {
         return driver;
     }
         
+//       public static WebDriver getTimestamp(WebDriver driver){
+//           
+//           JavascriptExecutor js = (JavascriptExecutor) driver;
+//           js.executeScript("for(i=0;i<100;i++){console.log(i);console.log(document.getElementsByClassName(\"time-clock\")[i].childNodes[1].nodeValue);}");
+//           return driver;
+//       }
 }

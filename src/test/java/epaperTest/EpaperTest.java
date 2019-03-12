@@ -15,12 +15,15 @@ import org.testng.annotations.Test;
 import amarujala_epaper.*;
 import com.relevantcodes.extentreports.LogStatus;
 import java.io.File;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
-import java.util.Calendar;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
 import setup.drivers;
+import java.time.*;
 
 
 /**
@@ -32,6 +35,8 @@ public class EpaperTest {
     private WebDriver driver;
     ExtentReports extent;
     ExtentTest logger;
+    private static final DateFormat sdf = new SimpleDateFormat("yyyy");
+    private static final DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
     
     public EpaperTest() {
     }
@@ -192,11 +197,12 @@ public class EpaperTest {
        ArrayList elem = epaper.get_cityname_epaper(driver);
        for(int j=0 ;citycodes.length>=j;j++ ){
        for(int i=0 ;elem.size()>=i;i++){
-           int year = Calendar.getInstance().get(Calendar.YEAR);
-           int month = Calendar.getInstance().get(Calendar.MONTH);
-           int day = Calendar.getInstance().get(Calendar.DATE);
-           ++month;
-           String url = " https://epaperwmimg.amarujala.com/"+year+"/0"+month+"/"+day+"/"+citycodes[i]+"/"+elem.get(i)+"/hdimage.jpg";
+           LocalDate localDate = LocalDate.now();
+           String year =DateTimeFormatter.ofPattern("yyyy").format(localDate);
+           String month =DateTimeFormatter.ofPattern("MM").format(localDate);
+           String day =DateTimeFormatter.ofPattern("dd").format(localDate);
+           //++month;
+           String url = " https://epaperwmimg.amarujala.com/"+year+"/"+month+"/"+day+"/"+citycodes[i]+"/"+elem.get(i)+"/hdimage.jpg";
            System.out.println(url);
            logger.log(LogStatus.INFO, url);
            int Statuscode = epaper.httpResponseCodeViaGet(url);

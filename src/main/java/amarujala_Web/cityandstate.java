@@ -357,7 +357,7 @@ public class cityandstate {
         return element;
     }
         public static WebElement city_hariyana_2(WebDriver driver){
-        element = driver.findElement(By.linkText("करनाल"));
+        element = driver.findElement(By.xpath("//a[contains(@title,'करनाल')]"));
         return element;
     }
         public static WebElement city_hariyana_3(WebDriver driver){
